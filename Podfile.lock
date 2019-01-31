@@ -1,0 +1,26 @@
+PODS:
+  - OpenGraph (1.0.5)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+
+DEPENDENCIES:
+  - OpenGraph
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OpenGraph
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  OpenGraph: f3529e35045abd3b163f455278d4d866c0eb061b
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+
+PODFILE CHECKSUM: 31dc728d059c12e52dab560e2a9447bf6b21f0fa
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB4764F6220321A800B4DE92 /* AddTsundokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4764F5220321A800B4DE92 /* AddTsundokuViewController.swift */; };
+		AB974D5722017D68005DBDF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB974D5622017D68005DBDF8 /* AppDelegate.swift */; };
+		AB974D5922017D68005DBDF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB974D5822017D68005DBDF8 /* ViewController.swift */; };
+		AB974D5C22017D68005DBDF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB974D5A22017D68005DBDF8 /* Main.storyboard */; };
+		AB974D5E22017D68005DBDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB974D5D22017D68005DBDF8 /* Assets.xcassets */; };
+		AB974D6122017D68005DBDF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB974D5F22017D68005DBDF8 /* LaunchScreen.storyboard */; };
+		AB974D6A220183BF005DBDF8 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB974D68220183BF005DBDF8 /* CardTableViewCell.swift */; };
+		AB974D6B220183BF005DBDF8 /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB974D69220183BF005DBDF8 /* CardTableViewCell.xib */; };
+		ABFD404822021431007A4880 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD404722021431007A4880 /* DetailViewController.swift */; };
+		BF96B2FDDEFB9A9E0B66D7EA /* Pods_TsundokuReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C69D7956D17C7ED4D15CBDC /* Pods_TsundokuReader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C69D7956D17C7ED4D15CBDC /* Pods_TsundokuReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TsundokuReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8484E6B16795022D30F800FD /* Pods-TsundokuReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TsundokuReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-TsundokuReader/Pods-TsundokuReader.release.xcconfig"; sourceTree = "<group>"; };
+		9DFEF4D2A8F8DB7943C49D05 /* Pods-TsundokuReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TsundokuReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TsundokuReader/Pods-TsundokuReader.debug.xcconfig"; sourceTree = "<group>"; };
+		AB4764F5220321A800B4DE92 /* AddTsundokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTsundokuViewController.swift; sourceTree = "<group>"; };
+		AB974D5322017D68005DBDF8 /* TsundokuReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TsundokuReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB974D5622017D68005DBDF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB974D5822017D68005DBDF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB974D5B22017D68005DBDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB974D5D22017D68005DBDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB974D6022017D68005DBDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB974D6222017D68005DBDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB974D68220183BF005DBDF8 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		AB974D69220183BF005DBDF8 /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		ABFD404722021431007A4880 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB974D5022017D68005DBDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96B2FDDEFB9A9E0B66D7EA /* Pods_TsundokuReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78F616ED1A684D2858D814BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C69D7956D17C7ED4D15CBDC /* Pods_TsundokuReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB974D4A22017D68005DBDF8 = {
+			isa = PBXGroup;
+			children = (
+				AB974D5522017D68005DBDF8 /* TsundokuReader */,
+				AB974D5422017D68005DBDF8 /* Products */,
+				B6C723134645C42E239700C4 /* Pods */,
+				78F616ED1A684D2858D814BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB974D5422017D68005DBDF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB974D5322017D68005DBDF8 /* TsundokuReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB974D5522017D68005DBDF8 /* TsundokuReader */ = {
+			isa = PBXGroup;
+			children = (
+				AB974D5622017D68005DBDF8 /* AppDelegate.swift */,
+				AB974D5822017D68005DBDF8 /* ViewController.swift */,
+				AB974D5A22017D68005DBDF8 /* Main.storyboard */,
+				AB4764F5220321A800B4DE92 /* AddTsundokuViewController.swift */,
+				AB974D68220183BF005DBDF8 /* CardTableViewCell.swift */,
+				AB974D69220183BF005DBDF8 /* CardTableViewCell.xib */,
+				AB974D5D22017D68005DBDF8 /* Assets.xcassets */,
+				AB974D5F22017D68005DBDF8 /* LaunchScreen.storyboard */,
+				AB974D6222017D68005DBDF8 /* Info.plist */,
+				ABFD404722021431007A4880 /* DetailViewController.swift */,
+			);
+			path = TsundokuReader;
+			sourceTree = "<group>";
+		};
+		B6C723134645C42E239700C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DFEF4D2A8F8DB7943C49D05 /* Pods-TsundokuReader.debug.xcconfig */,
+				8484E6B16795022D30F800FD /* Pods-TsundokuReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB974D5222017D68005DBDF8 /* TsundokuReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB974D6522017D68005DBDF8 /* Build configuration list for PBXNativeTarget "TsundokuReader" */;
+			buildPhases = (
+				3518524DBF7390A95B523793 /* [CP] Check Pods Manifest.lock */,
+				AB974D4F22017D68005DBDF8 /* Sources */,
+				AB974D5022017D68005DBDF8 /* Frameworks */,
+				AB974D5122017D68005DBDF8 /* Resources */,
+				2D7664533B07CCA1271B22D0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TsundokuReader;
+			productName = TsundokuReader;
+			productReference = AB974D5322017D68005DBDF8 /* TsundokuReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB974D4B22017D68005DBDF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ryuichi Sakagami";
+				TargetAttributes = {
+					AB974D5222017D68005DBDF8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AB974D4E22017D68005DBDF8 /* Build configuration list for PBXProject "TsundokuReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB974D4A22017D68005DBDF8;
+			productRefGroup = AB974D5422017D68005DBDF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB974D5222017D68005DBDF8 /* TsundokuReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB974D5122017D68005DBDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB974D6122017D68005DBDF8 /* LaunchScreen.storyboard in Resources */,
+				AB974D5E22017D68005DBDF8 /* Assets.xcassets in Resources */,
+				AB974D5C22017D68005DBDF8 /* Main.storyboard in Resources */,
+				AB974D6B220183BF005DBDF8 /* CardTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D7664533B07CCA1271B22D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TsundokuReader/Pods-TsundokuReader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OpenGraph/OpenGraph.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenGraph.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TsundokuReader/Pods-TsundokuReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3518524DBF7390A95B523793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TsundokuReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB974D4F22017D68005DBDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB974D5922017D68005DBDF8 /* ViewController.swift in Sources */,
+				AB4764F6220321A800B4DE92 /* AddTsundokuViewController.swift in Sources */,
+				AB974D6A220183BF005DBDF8 /* CardTableViewCell.swift in Sources */,
+				AB974D5722017D68005DBDF8 /* AppDelegate.swift in Sources */,
+				ABFD404822021431007A4880 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB974D5A22017D68005DBDF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB974D5B22017D68005DBDF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB974D5F22017D68005DBDF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB974D6022017D68005DBDF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB974D6322017D68005DBDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB974D6422017D68005DBDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB974D6622017D68005DBDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFEF4D2A8F8DB7943C49D05 /* Pods-TsundokuReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TsundokuReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.shagamii.TsundokuReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB974D6722017D68005DBDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8484E6B16795022D30F800FD /* Pods-TsundokuReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TsundokuReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.shagamii.TsundokuReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB974D4E22017D68005DBDF8 /* Build configuration list for PBXProject "TsundokuReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB974D6322017D68005DBDF8 /* Debug */,
+				AB974D6422017D68005DBDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB974D6522017D68005DBDF8 /* Build configuration list for PBXNativeTarget "TsundokuReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB974D6622017D68005DBDF8 /* Debug */,
+				AB974D6722017D68005DBDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB974D4B22017D68005DBDF8 /* Project object */;
+}
